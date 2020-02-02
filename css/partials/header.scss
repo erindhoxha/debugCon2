@@ -1,7 +1,9 @@
 
 .banner {
   min-height: 650px;
-  height: 90vh;
+  height: 100vh;
+  position:relative;
+  overflow-x:hidden;
 }
 .banner::before {
   background-size:cover;
@@ -18,8 +20,8 @@
 
 .lead-hero-text {
   margin-top:60px;
-  font-size:32px;
-  max-width:780px;
+  font-size:$secondaryText;
+  max-width:650px;
 }
 
 #nav-logo {
@@ -69,6 +71,10 @@ nav {
 
 .overlay {
   height:100%;
+}
+
+.text-container {
+  padding-left:100px;
 }
 
 

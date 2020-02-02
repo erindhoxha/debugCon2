@@ -25,3 +25,97 @@
   background-color:transparent;
   transition:0.3s ease;
 }
+
+.header-button {
+  background-color:$primary;
+  border:none;
+  padding-left:40px;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+  font-weight:700;
+  font-size:18px;
+  letter-spacing:4px;
+  text-transform: uppercase;
+  border:2px solid $primary;
+  cursor:pointer;
+  transition:0.3s ease-in-out;
+    outline:0;
+
+  &:hover {
+    background-color:transparent;
+    border:2px solid $primary;
+  }
+  &:focus {
+    border:2px solid $primary;
+    outline:0;
+  }
+}
+
+.header-button.first {
+  position:absolute;
+  right:10%;
+  top:220px;
+  transform: rotate(-5deg);
+  right:200px;
+}
+
+.header-button.second {
+  position: absolute;
+  right: 0;
+  top:350px;
+  transform: rotate(-5deg);
+  right: 30%;
+}
+
+.header-button.third {
+  position: absolute;
+  right: 0;
+  top: 500px;
+  transform: rotate(-5deg);
+  right: 40%;
+}
+
+.header-button.fourth {
+  position: absolute;
+  right: 0;
+  top: 600px;
+  transform: rotate(-5deg);
+  right: 15%;
+}
+@media only screen and (max-width: 1063px) { 
+  .header-button {
+    display:none;
+  }
+}
+@media only screen and (max-width: 1369px) {
+  .header-button.first {
+    right: 10%;
+    top: 220px;
+    transform: rotate(-5deg);
+    right: 200px;
+  }
+
+  .header-button.second {
+    right: 0;
+    top: 350px;
+    transform: rotate(-5deg);
+    right: 10%;
+  }
+
+  .header-button.third {
+    right: 0;
+    top: 500px;
+    transform: rotate(-5deg);
+    right: 30%;
+  }
+
+  .header-button.fourth {
+    right: 0;
+    top: 600px;
+    transform: rotate(-5deg);
+    right: 15%;
+  }
+
+}
