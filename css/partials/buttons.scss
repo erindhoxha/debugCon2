@@ -84,12 +84,12 @@
   transform: rotate(-5deg);
   right: 15%;
 }
-@media only screen and (max-width: 1063px) { 
+@media only screen and (max-width: 1120px) { 
   .header-button {
     display:none;
   }
 }
-@media only screen and (max-width: 1369px) {
+@media only screen and (max-width: 1450px) {
   .header-button.first {
     right: 10%;
     top: 220px;

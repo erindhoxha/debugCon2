@@ -4,6 +4,7 @@
   height: 100vh;
   position:relative;
   overflow-x:hidden;
+  overflow-y: hidden;
 }
 .banner::before {
   background-size:cover;
@@ -17,11 +18,17 @@
   z-index: -1;
   opacity: 0.4;
 }
-
+.link-text {
+  color:white;
+  font-weight:700;
+  text-decoration: underline;
+  font-size:18px;
+}
 .lead-hero-text {
   margin-top:60px;
   font-size:$secondaryText;
   max-width:650px;
+  line-height:35px;
 }
 
 #nav-logo {

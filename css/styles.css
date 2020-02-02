@@ -187,12 +187,12 @@ ul.bullets li::before {
   right: 15%;
 }
 
-@media only screen and (max-width: 1063px) {
+@media only screen and (max-width: 1120px) {
   .header-button {
     display: none;
   }
 }
-@media only screen and (max-width: 1369px) {
+@media only screen and (max-width: 1450px) {
   .header-button.first {
     right: 10%;
     top: 220px;
@@ -226,6 +226,7 @@ ul.bullets li::before {
   height: 100vh;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .banner::before {
@@ -241,10 +242,18 @@ ul.bullets li::before {
   opacity: 0.4;
 }
 
+.link-text {
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
 .lead-hero-text {
   margin-top: 60px;
   font-size: 26px;
   max-width: 650px;
+  line-height: 35px;
 }
 
 #nav-logo {
@@ -330,7 +339,7 @@ nav a {
 .dots {
   position: absolute;
   opacity: 0.8;
-  z-index: -1;
+  z-index: -999999999999;
   width: 100%;
 }
 
