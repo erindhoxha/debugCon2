@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Erind Hoxha -- Developer -- Insta: @erindhox
 
 # THANKS
 
-    <name>
+    Denat Hoxha
+    Ermir Suldashi
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
+    CSS3, HTML5, angularJS, GSAP
     Apache Server Configs, jQuery, Modernizr, Normalize.css
