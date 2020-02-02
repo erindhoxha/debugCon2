@@ -9,3 +9,29 @@
   opacity:0.3;
   z-index:0;
 }
+
+.purple-circle {
+    height: 300px;
+    width: 300px;
+    background-color: $primary;
+    border-radius: 100%;
+    display: inline-block;
+}
+.cyan-circle {
+  height: 300px;
+  width: 300px;
+  background-color: $secondary;
+  border-radius: 100%;
+  display: inline-block;
+}
+.right {
+  position:absolute;
+  right:-200px;
+  top:50%;
+}
+.left {
+  position: absolute;
+  left: -220px;
+  top: 80%;
+  opacity:0.9;
+}

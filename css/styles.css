@@ -229,6 +229,35 @@ nav a {
   z-index: 0;
 }
 
+.purple-circle {
+  height: 300px;
+  width: 300px;
+  background-color: #551CA7;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.cyan-circle {
+  height: 300px;
+  width: 300px;
+  background-color: #00FFDD;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.right {
+  position: absolute;
+  right: -200px;
+  top: 50%;
+}
+
+.left {
+  position: absolute;
+  left: -220px;
+  top: 80%;
+  opacity: 0.9;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
