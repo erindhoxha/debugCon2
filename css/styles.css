@@ -148,11 +148,11 @@ ul.bullets li::before {
 }
 
 .header-button {
-  padding-right: 20px !important;
   background-color: #551CA7;
   border: none;
   padding-left: 40px;
   padding-top: 10px;
+  padding-right: 10px !important;
   padding-bottom: 10px;
   color: white;
   font-weight: 700;
@@ -160,6 +160,7 @@ ul.bullets li::before {
   letter-spacing: 4px;
   text-transform: uppercase;
   border: 2px solid #551CA7;
+  transform: rotate(-6deg) !important;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   outline: 0;
@@ -186,7 +187,6 @@ ul.bullets li::before {
   position: absolute;
   right: 10%;
   top: 220px;
-  transform: rotate(-5deg);
   right: 200px;
 }
 
@@ -194,7 +194,6 @@ ul.bullets li::before {
   position: absolute;
   right: 0;
   top: 350px;
-  transform: rotate(-5deg);
   right: 30%;
 }
 
@@ -202,7 +201,6 @@ ul.bullets li::before {
   position: absolute;
   right: 0;
   top: 500px;
-  transform: rotate(-5deg);
   right: 40%;
 }
 
@@ -210,7 +208,6 @@ ul.bullets li::before {
   position: absolute;
   right: 0;
   top: 600px;
-  transform: rotate(-5deg);
   right: 15%;
 }
 
