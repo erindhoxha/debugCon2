@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="debugConModule">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Konferencë një-ditore me prezantime 10-minutëshe për përvojat, sfidat, dhe arritjet në botën e softuerit - debugCon</title>
+  <meta name="description" content="Konferencë një-ditore plot me prezantime 10-minutëshe për përvojat, sfidat, dhe arritjet në botën e softuerit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#fafafa">
+  <meta property="og:title" content="Konferencë një-ditore me prezantime 10-minutëshe për përvojat, sfidat, dhe arritjet në botën e softuerit - debugCon"/>
+  <meta property="og:description" content="Konferencë një-ditore plot me prezantime 10-minutëshe për përvojat, sfidat, dhe arritjet në botën e softuerit"/>
+  <meta property="og:image" content="https://debug.al/img/debugcon_logo.png"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <script src="//code.angularjs.org/1.3.0-rc.2/angular.min.js"></script>
+  <script src="//code.angularjs.org/1.3.0-rc.2/angular-route.min.js"></script>
+  <script src="//code.angularjs.org/1.3.0-rc.2/angular-resource.min.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/speakers.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+
+  <script src="js/main.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/services.js"></script>
+
+</head>
+
+<body ng-class="{'weather-body' : bodyClass == 'weatherBody'}">
+
+      <nav class="navbar navbar-expand-xl navbar-dark">
+        <div class="container">
+          <div class="logo-container">
+            <a class="navbar-brand" href="#"><img id="nav-logo" src="img/dblogo2.png"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+
+            <ul class="navbar-nav ml-auto pr-4">
+              <li class="nav-item">
+                <a class="nav-link nav-link-active" href="#/">N'shpi <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kudhekur">Ku dhe kur?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prezantuesit">Prezantuesit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors">Sponzorët</a>
+              </li>
+              <!--li class="nav-item">
+            <a class="nav-link" href="info.html">Info</a>
+          </li-->
+            </ul>
+            <a href="agjenda.html"><button class="btn-speaker-nav">Agjenda e Konferencës</button></a>
+          </div>
+        </div>
+      </nav>
+
+  <div ng-view autoscroll="true"></div>
+
+  <div class="container">
+    <footer class="p-4 text-white text-center">
+      <h6><a href="http://github.com/erindhoxha" target="_blank"><img src="img/code.svg"></a> with <a
+          href="https://en.wikipedia.org/wiki/Love" target="_blank"><img src="img/heart.svg"></a> by debugCon</h6>
+    </footer>
+  </div>
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+
+  <!-- Controllers -->
+  <script type="text/javascript" src="./js/controllers/homeController.js"></script>
+  <script type="text/javascript" src="./js/directives/dc-header.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="js/gsapAnimations.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136769515-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-136769515-1');
+    </script>
+</body>
+
+</html>
