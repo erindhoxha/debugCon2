@@ -13,13 +13,16 @@
 @import './partials/fonts.scss';
 @import './partials/general.scss';
 @import './partials/variables.scss';
-@import './partials/header.scss';
 @import './partials/material.scss';
 @import './partials/icons.scss';
 @import './partials/mediaqueries.scss';
 @import './partials/svg.scss';
 @import './partials/list.scss';
 @import './partials/buttons.scss';
+@import './partials/pseudoclasses.scss';
+@import './partials/header.scss';
+@import './partials/animations.scss';
+@import './partials/patterns.scss';
 
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {

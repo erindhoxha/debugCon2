@@ -1,0 +1,27 @@
+.btn-speaker:hover {
+  animation: float 2s ease-in-out infinite;
+}
+
+
+.btn-speaker-nav {
+  border:2px solid $primary;
+  background-color:transparent;
+  color:white;
+  padding:9px 30px;
+  font-family:'Track', 'Titillium-Web';
+  font-size:12px;
+  cursor:pointer;
+}
+.btn-speaker {
+  margin-top:20px;
+  background-color:transparent;
+  border: 2px solid $primary;
+  font-family:'Track', 'Titillium Web';
+  color:#fff;
+  padding:20px;
+  cursor:pointer;
+}
+.btn-speaker:hover, .btn-speaker-nav:hover {
+  background-color:$primary;
+  transition:0.3s ease;
+}

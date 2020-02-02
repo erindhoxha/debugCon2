@@ -1,0 +1,9 @@
+.active:before {
+  content:"{  ";
+  color: #6022FF;
+}
+
+.active:after {
+  content: " }";
+  color: #6022FF;
+}

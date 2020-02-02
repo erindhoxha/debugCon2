@@ -17,3 +17,12 @@ body {
 .title {
   font-size: 40px !important;
 }
+
+*[data-tooltip] {
+  cursor: pointer;
+}
+
+.active {
+  transition: 0.3s;
+  // border-bottom: 4px solid $primary;
+}
