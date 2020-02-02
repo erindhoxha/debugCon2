@@ -1,9 +1,13 @@
 .active:before {
   content:"{  ";
-  color: #6022FF;
+  color: $primary;
 }
 
 .active:after {
   content: " }";
-  color: #6022FF;
+  color: $primary;
+}
+
+.active {
+  color:white !important;
 }

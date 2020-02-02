@@ -42,6 +42,7 @@
 
 nav {
   background-color: $backgroundColor;
+  border-bottom:3px solid $primary;
   position:fixed !important;
   width:100%;
   padding-top:15px !important;
@@ -52,6 +53,14 @@ nav {
     text-transform: uppercase;
     font-weight:700;
     opacity:1 !important;
+  }
+  .navbar-nav {
+    li {
+      padding-right:40px;
+      a {
+        font-size:18px;
+      }
+    }
   }
 }
 

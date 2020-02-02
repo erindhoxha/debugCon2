@@ -21,6 +21,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   font-family: "Titillium Web";
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +29,17 @@ body {
   background-color: #000017;
   overflow-x: hidden;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%2325045a' fill-opacity='0.25'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #551CA7;
+}
+
+::selection {
+  color: white;
+  background: #551CA7;
 }
 
 .title {
@@ -100,17 +112,14 @@ ul.bullets li::before {
   /* Also needed for space (tweak if needed) */
 }
 
-.btn-speaker:hover {
-  animation: float 2s ease-in-out infinite;
-}
-
 .btn-speaker-nav {
   border: 2px solid #551CA7;
   background-color: #551CA7;
   color: white;
   padding: 9px 30px;
-  font-family: "Track", "Titillium-Web";
-  font-size: 12px;
+  font-family: "Track", "Titillium Web";
+  font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -124,16 +133,22 @@ ul.bullets li::before {
   cursor: pointer;
 }
 
+.btn-speaker:hover {
+  animation: float 2s ease-in-out infinite;
+  background-color: #551CA7 !important;
+  color: white;
+}
+
 .btn-speaker:hover, .btn-speaker-nav:hover {
   background-color: transparent;
   transition: 0.3s ease;
 }
 
 .header-button {
+  padding-right: 20px !important;
   background-color: #551CA7;
   border: none;
   padding-left: 40px;
-  padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
@@ -146,9 +161,18 @@ ul.bullets li::before {
   transition: 0.3s ease-in-out;
   outline: 0;
 }
+.header-button i {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
 .header-button:hover {
   background-color: transparent;
   border: 2px solid #551CA7;
+  padding-right: 30px !important;
+}
+.header-button:hover i {
+  opacity: 1;
+  position: relative;
 }
 .header-button:focus {
   border: 2px solid #551CA7;
@@ -268,6 +292,7 @@ ul.bullets li::before {
 
 nav {
   background-color: #000017;
+  border-bottom: 3px solid #551CA7;
   position: fixed !important;
   width: 100%;
   padding-top: 15px !important;
@@ -279,6 +304,12 @@ nav a {
   text-transform: uppercase;
   font-weight: 700;
   opacity: 1 !important;
+}
+nav .navbar-nav li {
+  padding-right: 40px;
+}
+nav .navbar-nav li a {
+  font-size: 18px;
 }
 
 .navbar-brand {
@@ -370,6 +401,20 @@ nav a {
   left: -220px;
   top: 80%;
   opacity: 0.9;
+}
+
+.active:before {
+  content: "{  ";
+  color: #551CA7;
+}
+
+.active:after {
+  content: " }";
+  color: #551CA7;
+}
+
+.active {
+  color: white !important;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {

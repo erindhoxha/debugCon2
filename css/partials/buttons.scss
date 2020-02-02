@@ -1,6 +1,3 @@
-.btn-speaker:hover {
-  animation: float 2s ease-in-out infinite;
-}
 
 
 .btn-speaker-nav {
@@ -8,8 +5,9 @@
   background-color:$primary;
   color:white;
   padding:9px 30px;
-  font-family:'Track', 'Titillium-Web';
-  font-size:12px;
+  font-family:'Track', 'Titillium Web';
+  font-size:18px;
+  font-weight:700;
   cursor:pointer;
 }
 .btn-speaker {
@@ -21,16 +19,25 @@
   padding:20px;
   cursor:pointer;
 }
+.btn-speaker:hover {
+  animation: float 2s ease-in-out infinite;
+  background-color: $primary !important;
+  color: white;
+}
 .btn-speaker:hover, .btn-speaker-nav:hover {
   background-color:transparent;
   transition:0.3s ease;
 }
 
 .header-button {
+  i {
+    transition:0.3s ease-in-out;
+    opacity:0;
+  }
+  padding-right:20px !important;
   background-color:$primary;
   border:none;
   padding-left:40px;
-  padding-right:40px;
   padding-top:10px;
   padding-bottom:10px;
   color:white;
@@ -46,6 +53,11 @@
   &:hover {
     background-color:transparent;
     border:2px solid $primary;
+    padding-right:30px !important;
+  }
+  &:hover i {
+    opacity:1;
+    position:relative;
   }
   &:focus {
     border:2px solid $primary;
