@@ -10,9 +10,9 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import './partials/variables.scss';
 @import './partials/fonts.scss';
 @import './partials/general.scss';
-@import './partials/variables.scss';
 @import './partials/material.scss';
 @import './partials/icons.scss';
 @import './partials/mediaqueries.scss';

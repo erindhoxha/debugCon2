@@ -1,7 +1,7 @@
 
 .banner {
   min-height: 650px;
-  height: 85vh;
+  height: 90vh;
 }
 .banner::before {
   background-size:cover;
@@ -16,26 +16,41 @@
   opacity: 0.4;
 }
 
+.lead-hero-text {
+  margin-top:60px;
+  font-size:32px;
+  max-width:780px;
+}
+
 #nav-logo {
   width: 200px;
-  display:none;
   transition:0.3s ease;
+  margin-right:auto;
 }
 #nav-show {
   width:200px;
 }
 
 nav {
-  background-color: $mainHex;
+  background-color: $backgroundColor;
   position:fixed !important;
   width:100%;
+  padding-top:15px !important;
+  padding-bottom:15px !important;
   z-index:2;
+  a {
+    color:white !important;
+    text-transform: uppercase;
+    font-weight:700;
+    opacity:1 !important;
+  }
 }
 
 .navbar-brand {
   font-family:'Titillium Web';
   font-size:25px;
 }
+
 .logo-icon {
   width:400px;
   margin-bottom:30px;

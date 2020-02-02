@@ -5,7 +5,7 @@
 
 .btn-speaker-nav {
   border:2px solid $primary;
-  background-color:transparent;
+  background-color:$primary;
   color:white;
   padding:9px 30px;
   font-family:'Track', 'Titillium-Web';
@@ -22,6 +22,6 @@
   cursor:pointer;
 }
 .btn-speaker:hover, .btn-speaker-nav:hover {
-  background-color:$primary;
+  background-color:transparent;
   transition:0.3s ease;
 }
