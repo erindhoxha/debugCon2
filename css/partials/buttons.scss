@@ -5,7 +5,7 @@
   background-color:$primary;
   color:white;
   padding:9px 30px;
-  font-family:'Track', 'Titillium Web';
+  font-family:'Titillium Web';
   font-size:18px;
   font-weight:700;
   cursor:pointer;
@@ -14,7 +14,10 @@
   margin-top:20px;
   background-color:transparent;
   border: 2px solid $primary;
-  font-family:'Track', 'Titillium Web';
+  font-family:'Titillium Web';
+  font-weight:700;
+  font-size:18px;
+  text-transform: uppercase;
   color:#fff;
   padding:20px;
   cursor:pointer;
