@@ -29,8 +29,27 @@ body {
   font-size: 54px !important;
   font-weight:600;
   letter-spacing:7px;
+  height:80px;
   position:relative;
 }
+.title-with-pl {
+  font-size: 54px !important;
+  font-weight: 600;
+  letter-spacing: 7px;
+  height: 80px;
+  position: relative;
+}
+.title-with-pl:after {
+  content: ' ';
+  height: 10px;
+  background-color: $primary;
+  width: 80px;
+  position: absolute;
+  bottom: -30px;
+  left: 101px;
+  transform: rotate(-5deg);
+}
+
 .title:after {
   content:' ';
   height:10px;
@@ -38,7 +57,7 @@ body {
   width:80px;
   position:absolute;
   bottom:-30px;
-  left:0;
+  left: 0;
   transform:rotate(-5deg);
 }
 

@@ -218,9 +218,11 @@ function startSVGAnimationMain(parentElement) {
 function hyjneshaNfron(parentElement) {
   drawSVGPaths(parentElement, 2555, 4000, 550);
 }
+$("body").css("overflow-y", "hidden");
 
 startSVGAnimationMain($('#code-debugcon'));
 $(window).on('load', function() {
+
   // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
     speed: -2,
@@ -232,6 +234,7 @@ $(window).on('load', function() {
   });
   setTimeout(() => {
    $("#loader").fadeOut(300);
+   $("body").css("overflow-y", "scroll");
    hyjneshaNfron($("#hnn-pr"));
   }, 1000);
 })
