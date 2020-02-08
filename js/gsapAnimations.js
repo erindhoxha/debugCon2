@@ -231,5 +231,8 @@ hyjneshaNfron($("#hnn-pr"));
     vertical: true,
     horizontal: false
   });
+  setTimeout(() => {
+   $("#loader").fadeOut(300);
+  }, 1000);
 })
 
