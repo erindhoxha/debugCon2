@@ -275,7 +275,7 @@ ul.bullets li::before {
   color: white;
   font-weight: 700;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 1.25rem;
 }
 
 .lead-hero-text {
@@ -314,12 +314,12 @@ nav .navbar-nav li {
   padding-right: 40px;
 }
 nav .navbar-nav li a {
-  font-size: 18px;
+  font-size: 1.05rem;
 }
 
 .navbar-brand {
   font-family: "Titillium Web";
-  font-size: 25px;
+  font-size: 1.55rem;
 }
 
 .logo-icon {
@@ -370,7 +370,7 @@ nav .navbar-nav li a {
   position: absolute;
 }
 .prezantuesi .name-tag {
-  height: 80px;
+  height: 50px;
   transform: rotate(-4deg);
   background-color: #551CA7;
   position: absolute;
@@ -379,7 +379,7 @@ nav .navbar-nav li a {
   left: 20px;
   width: 150px;
   padding: 10px;
-  font-size: 22px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-align: center;
 }

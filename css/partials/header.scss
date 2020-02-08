@@ -22,7 +22,7 @@
   color:white;
   font-weight:700;
   text-decoration: underline;
-  font-size:18px;
+  font-size:1.25rem;
 }
 .lead-hero-text {
   margin-top:60px;
@@ -58,7 +58,7 @@ nav {
     li {
       padding-right:40px;
       a {
-        font-size:18px;
+        font-size:1.05rem;
       }
     }
   }
@@ -66,7 +66,7 @@ nav {
 
 .navbar-brand {
   font-family:'Titillium Web';
-  font-size:25px;
+  font-size:1.55rem;
 }
 
 .logo-icon {
@@ -116,7 +116,7 @@ nav {
     position:absolute;
   }
   .name-tag {
-    height:80px;
+    height:50px;
     transform:rotate(-4deg);
     background-color:$primary;
     position:absolute;
@@ -125,9 +125,8 @@ nav {
     left:20px;
     width:150px;
     padding:10px;
-    font-size:22px;
+    font-size:1.25rem;
     font-weight:600;
     text-align:center;
-
   }
 }
