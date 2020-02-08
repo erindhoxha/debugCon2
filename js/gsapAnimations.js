@@ -208,9 +208,16 @@ function hyjneshaNfron(parentElement) {
 $("body").css("overflow-y", "hidden");
 
 startSVGAnimation($("#code-debugcon"));
-$(document).on('load', function() {
 
-  new Rellax('.rellax', {
+
+$(window).on('load', function() {
+
+  
+  setTimeout(() => {
+   $("#loader").fadeOut(300);
+   $("body").css("overflow-y", "scroll");
+   hyjneshaNfron($("#hnn-pr"));
+  new Rellax(".rellax", {
     speed: -2,
     center: false,
     wrapper: null,
@@ -218,11 +225,6 @@ $(document).on('load', function() {
     vertical: true,
     horizontal: false
   });
-  
-  setTimeout(() => {
-   $("#loader").fadeOut(300);
-   $("body").css("overflow-y", "scroll");
-   hyjneshaNfron($("#hnn-pr"));
   }, 1000);
 })
 
