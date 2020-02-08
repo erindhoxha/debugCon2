@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+    .pl-100 {
+        padding-left:30px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-text {
+        padding-right:20px;
+    }
+  .title {
+      font-size: 34px !important;
+  }
+  .lead-hero-text {
+      font-size:18px !important;
+  }
+}

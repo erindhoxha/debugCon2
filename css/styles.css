@@ -88,6 +88,24 @@ body {
   transition: 0.3s;
 }
 
+@media only screen and (max-width: 1024px) {
+  .pl-100 {
+    padding-left: 30px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-text {
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 34px !important;
+  }
+
+  .lead-hero-text {
+    font-size: 18px !important;
+  }
+}
 #path2656,
 #path2698 {
   fill: none;
@@ -237,7 +255,7 @@ ul.bullets li::before {
 }
 
 @media only screen and (max-width: 1120px) {
-  .header-button {
+  .header-button.hide-lg {
     display: none;
   }
 }
@@ -270,6 +288,29 @@ ul.bullets li::before {
     right: 15%;
   }
 }
+#button {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+  background-color: #551CA7;
+  border-radius: 10px;
+}
+#button i {
+  font-size: 20px;
+  color: white;
+}
+
+.show {
+  display: flex !important;
+}
+
 .banner {
   min-height: 900px;
   height: 100vh;
@@ -481,6 +522,7 @@ nav .navbar-nav li a {
 }
 
 .circle-contact {
+  z-index: -2;
   left: 60%;
   width: 120px;
   height: 120px !important;
@@ -588,6 +630,12 @@ nav .navbar-nav li a {
   left: 30%;
 }
 
+@media only screen and (max-width: 1525px) {
+  .dcflag {
+    top: 18%;
+    width: 300px;
+  }
+}
 .sponsors-text {
   max-width: 900px;
   text-align: center;

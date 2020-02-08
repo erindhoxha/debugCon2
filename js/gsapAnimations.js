@@ -1,16 +1,3 @@
-var burger = document.getElementsByClassName("mdc-icon-button");
-var sidebar = document.getElementsByClassName("left-sidebar");
-var close = document.getElementsByClassName("close-icon");
-
-var tl = new TimelineMax({paused:true, reversed:false});
-  tl.timeScale(0);
-  tl.to(burger, 1, { rotation: 360, ease: Power1.easeInOut }, 0)
-    .to(sidebar, 1, { width: "70vw", ease: Power1.easeInOut }, "-=-5")
-    .to(close, 1, { rotation: 360, ease: Power1.easeInOut }, "-=-5");
-function haminate() {
-  tl.reversed() ? tl.play() : tl.reverse();	
-}
-
 
 jQuery.extend(jQuery.easing, {
   easeInOutQuad: function (x, t, b, c, d) {
@@ -238,4 +225,22 @@ $(window).on('load', function() {
    hyjneshaNfron($("#hnn-pr"));
   }, 1000);
 })
+
+
+var btn = $("#button");
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+
+btn.on("click", function(e) {
+  e.preventDefault();
+  $("html, body")
+    .stop()
+    .animate({ scrollTop: 0 }, "300");
+});
 
