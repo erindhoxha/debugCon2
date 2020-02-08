@@ -221,7 +221,6 @@ function hyjneshaNfron(parentElement) {
 
 startSVGAnimationMain($('#code-debugcon'));
 $(window).on('load', function() {
-hyjneshaNfron($("#hnn-pr"));
   // Also can pass in optional settings block
   var rellax = new Rellax('.rellax', {
     speed: -2,
@@ -233,6 +232,7 @@ hyjneshaNfron($("#hnn-pr"));
   });
   setTimeout(() => {
    $("#loader").fadeOut(300);
+   hyjneshaNfron($("#hnn-pr"));
   }, 1000);
 })
 
