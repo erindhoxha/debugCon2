@@ -104,6 +104,23 @@
   .header-button.hide-lg {
     display:none;
   }
+  .dcflag {
+    top: 18% !important;
+    right: 10px !important;
+    left:0;
+  }
+}
+@media only screen and (max-width:1024px) {
+    .hide-sm {
+      display: none !important;
+    }
+    .sponsors-text {
+      h1 {
+        font-size:$secondaryText;
+        max-width:80%;
+        margin:0 auto;
+      }
+    }
 }
 @media only screen and (max-width: 1450px) {
   .header-button.first {

@@ -88,24 +88,6 @@ body {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 1024px) {
-  .pl-100 {
-    padding-left: 30px !important;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .hero-text {
-    padding-right: 20px;
-  }
-
-  .title {
-    font-size: 34px !important;
-  }
-
-  .lead-hero-text {
-    font-size: 18px !important;
-  }
-}
 #path2656,
 #path2698 {
   fill: none;
@@ -130,6 +112,38 @@ body {
   fill: none;
   stroke: #6022FF;
   stroke-width: 1px;
+  stroke-miterlimit: 10;
+}
+
+#dc-mail {
+  margin: 0px;
+  position: absolute;
+  height: 400px;
+  right: 10%;
+  overflow: hidden;
+  opacity: 0.1;
+  transform: rotate(-34deg);
+}
+#dc-mail .st0 {
+  fill: none;
+  stroke: #6022FF;
+  stroke-width: 1px;
+  stroke-miterlimit: 10;
+}
+
+#code-debugcon-overlay {
+  margin: 0px;
+  position: absolute;
+  height: 400px;
+  bottom: 0;
+  right: 10%;
+  overflow: hidden;
+  opacity: 0.1;
+}
+#code-debugcon-overlay .st0 {
+  fill: none;
+  stroke: #6022FF;
+  stroke-width: 5px;
   stroke-miterlimit: 10;
 }
 
@@ -258,6 +272,23 @@ ul.bullets li::before {
   .header-button.hide-lg {
     display: none;
   }
+
+  .dcflag {
+    top: 18% !important;
+    right: 10px !important;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .hide-sm {
+    display: none !important;
+  }
+
+  .sponsors-text h1 {
+    font-size: 1.45rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 1450px) {
   .header-button.first {
@@ -357,7 +388,7 @@ ul.bullets li::before {
 }
 
 nav {
-  background-color: #000017;
+  background-color: #000017ce;
   border-bottom: 3px solid #551CA7;
   position: fixed !important;
   width: 100%;
@@ -469,9 +500,6 @@ nav .navbar-nav li a {
   }
 }
 .bg-stripes {
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
   left: 0;
   width: 100%;
   height: 10vh;
@@ -488,6 +516,7 @@ nav .navbar-nav li a {
 
 .purple-circle {
   height: 300px;
+  z-index: -10;
   width: 300px;
   background-color: #551CA7;
   border-radius: 100%;
@@ -666,6 +695,61 @@ a {
   color: #00FFDD !important;
 }
 
+@media only screen and (max-width: 1024px) {
+  .pl-100 {
+    padding-left: 30px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sponsors-text img {
+    max-width: 80%;
+  }
+
+  .circle-contact {
+    display: none;
+  }
+
+  .dots {
+    width: 1044px;
+  }
+
+  .hero-text {
+    padding-right: 20px;
+  }
+
+  .title {
+    font-size: 34px !important;
+  }
+  .title:after {
+    bottom: -5px;
+  }
+
+  .lead-hero-text {
+    font-size: 18px !important;
+    margin-top: 35px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .dcflag {
+    left: 10% !important;
+    right: 10% !important;
+    top: 107px !important;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .banner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .title {
+    font-size: 24px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+}
 .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */

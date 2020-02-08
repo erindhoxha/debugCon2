@@ -25,3 +25,33 @@
   overflow: hidden;
   opacity: 0.2;
 }
+#dc-mail {
+    margin: 0px;
+  position: absolute;
+  height: 400px;
+  right:10%;
+  overflow: hidden;
+  opacity: 0.1;
+  transform:rotate(-34deg);
+  .st0 {
+    fill: none;
+    stroke: #6022FF;
+    stroke-width: 1px;
+    stroke-miterlimit: 10;
+  }
+}
+#code-debugcon-overlay {
+  margin: 0px;
+  position: absolute;
+  height: 400px;
+  bottom: 0;
+  right:10%;
+  overflow: hidden;
+  opacity: 0.1;
+  .st0 {
+    fill: none;
+    stroke: #6022FF;
+    stroke-width: 5px;
+    stroke-miterlimit: 10;
+  }
+}

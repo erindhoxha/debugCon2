@@ -15,7 +15,6 @@
 @import './partials/general.scss';
 @import './partials/material.scss';
 @import './partials/icons.scss';
-@import './partials/mediaqueries.scss';
 @import './partials/svg.scss';
 @import './partials/list.scss';
 @import './partials/buttons.scss';
@@ -26,6 +25,8 @@
 @import './partials/loader.scss';
 @import './partials/images.scss';
 @import './partials/text.scss';
+@import './partials/mediaqueries.scss';
+
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
