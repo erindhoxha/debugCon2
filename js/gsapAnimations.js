@@ -224,7 +224,7 @@ startSVGAnimationMain($('#code-debugcon'));
 $(window).on('load', function() {
 
   // Also can pass in optional settings block
-  var rellax = new Rellax('.rellax', {
+  new Rellax('.rellax', {
     speed: -2,
     center: false,
     wrapper: null,
@@ -232,6 +232,7 @@ $(window).on('load', function() {
     vertical: true,
     horizontal: false
   });
+  
   setTimeout(() => {
    $("#loader").fadeOut(300);
    $("body").css("overflow-y", "scroll");
