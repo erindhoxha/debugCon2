@@ -231,9 +231,10 @@ var btn = $("#button");
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
-    btn.addClass("show");
+    btn.addClass("show-btn");
+    startSVGAnimationMain($("#code-debugcon-overlay"));
   } else {
-    btn.removeClass("show");
+    btn.removeClass("show-btn");
   }
 });
 
