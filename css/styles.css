@@ -33,12 +33,12 @@ body {
 
 ::-moz-selection {
   /* Code for Firefox */
-  color: white;
+  color: #eeeeee;
   background: #551CA7;
 }
 
 ::selection {
-  color: white;
+  color: #eeeeee;
   background: #551CA7;
 }
 
@@ -136,7 +136,7 @@ ul.bullets li::before {
 .btn-speaker-nav {
   border: 2px solid #551CA7;
   background-color: #551CA7;
-  color: white;
+  color: #eeeeee;
   padding: 9px 30px;
   font-family: "Titillium Web";
   font-size: 18px;
@@ -160,7 +160,7 @@ ul.bullets li::before {
 .btn-speaker:hover {
   animation: float 2s ease-in-out infinite;
   background-color: #551CA7 !important;
-  color: white;
+  color: #eeeeee;
 }
 
 .btn-speaker:hover, .btn-speaker-nav:hover {
@@ -175,7 +175,7 @@ ul.bullets li::before {
   padding-top: 10px;
   padding-right: 10px !important;
   padding-bottom: 10px;
-  color: white;
+  color: #eeeeee;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 4px;
@@ -292,7 +292,7 @@ ul.bullets li::before {
 }
 
 .link-text {
-  color: white;
+  color: #eeeeee;
   font-weight: 700;
   text-decoration: underline;
   font-size: 1.25rem;
@@ -300,7 +300,7 @@ ul.bullets li::before {
 
 .lead-hero-text {
   margin-top: 60px;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   max-width: 650px;
   line-height: 35px;
 }
@@ -325,9 +325,9 @@ nav {
   z-index: 2;
 }
 nav a {
-  color: white !important;
+  color: #e7e7e7 !important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   opacity: 1 !important;
 }
 nav .navbar-nav li {
@@ -348,7 +348,7 @@ nav .navbar-nav li a {
 }
 
 .hero-text {
-  color: white;
+  color: #eeeeee;
   display: flex;
   text-align: left;
   justify-content: center;
@@ -359,7 +359,7 @@ nav .navbar-nav li a {
 }
 
 .hero-text-default {
-  color: white;
+  color: #eeeeee;
   display: flex;
   height: 100%;
   width: 100%;
@@ -513,7 +513,7 @@ nav .navbar-nav li a {
 }
 
 .active {
-  color: white !important;
+  color: #eeeeee !important;
 }
 
 #loader {
@@ -594,7 +594,7 @@ nav .navbar-nav li a {
   margin: 0 auto;
 }
 .sponsors-text h1 {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 .sponsors-text h1 a {
   color: #00FFDD;

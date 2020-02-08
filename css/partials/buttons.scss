@@ -3,7 +3,7 @@
 .btn-speaker-nav {
   border:2px solid $primary;
   background-color:$primary;
-  color:white;
+  color:$white;
   padding:9px 30px;
   font-family:'Titillium Web';
   font-size:18px;
@@ -25,7 +25,7 @@
 .btn-speaker:hover {
   animation: float 2s ease-in-out infinite;
   background-color: $primary !important;
-  color: white;
+  color: $white;
 }
 .btn-speaker:hover, .btn-speaker-nav:hover {
   background-color:transparent;
@@ -43,7 +43,7 @@
   padding-top:10px;
   padding-right:10px !important;
   padding-bottom:10px;
-  color:white;
+  color:$white;
   font-weight:700;
   font-size:18px;
   letter-spacing:4px;

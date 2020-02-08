@@ -19,7 +19,7 @@
   opacity: 0.4;
 }
 .link-text {
-  color:white;
+  color:$white;
   font-weight:700;
   text-decoration: underline;
   font-size:1.25rem;
@@ -49,9 +49,9 @@ nav {
   padding-bottom:15px !important;
   z-index:2;
   a {
-    color:white !important;
+    color:rgb(231, 231, 231) !important;
     text-transform: uppercase;
-    font-weight:700;
+    font-weight:600;
     opacity:1 !important;
   }
   .navbar-nav {
@@ -75,7 +75,7 @@ nav {
 }
 
 .hero-text {
-  color:white;
+  color:$white;
   display:flex;
   text-align:left;
   justify-content: center;
@@ -86,7 +86,7 @@ nav {
 }
 
 .hero-text-default {
-  color: white;
+  color: $white;
   display: flex;
   height: 100%;
   width: 100%;
