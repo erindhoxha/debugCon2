@@ -26,10 +26,12 @@ body {
 // FORM
 
 .title {
+  display:flex;
+  align-items:center;
   font-size: 54px !important;
   font-weight:600;
   letter-spacing:7px;
-  height:80px;
+  height:90px;
   position:relative;
 }
 .title-with-pl {

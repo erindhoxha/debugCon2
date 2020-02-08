@@ -43,10 +43,12 @@ body {
 }
 
 .title {
+  display: flex;
+  align-items: center;
   font-size: 54px !important;
   font-weight: 600;
   letter-spacing: 7px;
-  height: 80px;
+  height: 90px;
   position: relative;
 }
 
@@ -323,8 +325,8 @@ ul.bullets li::before {
 #button {
   display: none;
   position: fixed;
-  bottom: 5px;
-  right: 5px;
+  bottom: 15px;
+  right: 15px;
   z-index: 9999;
   justify-content: center;
   align-items: center;
@@ -341,6 +343,10 @@ ul.bullets li::before {
 
 .show-btn {
   display: flex !important;
+}
+
+.navbar-toggler:focus {
+  outline-color: #551CA7;
 }
 
 .banner {
@@ -629,14 +635,14 @@ nav .navbar-nav li a {
 }
 .leftCurlyBrace {
   font-family: "Track";
-  -webkit-text-stroke: 2px #3A1075;
+  -webkit-text-stroke: 2px #551CA7;
   font-size: 6rem;
   padding-right: 20px;
   animation: left 2s ease-out infinite;
 }
 
 .rightCurlyBrace {
-  -webkit-text-stroke: 2px #3A1075;
+  -webkit-text-stroke: 2px #551CA7;
   animation: right 2s ease-out infinite;
   padding-left: 20px;
   font-family: "Track";
