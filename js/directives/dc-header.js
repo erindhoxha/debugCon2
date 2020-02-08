@@ -5,8 +5,6 @@ debugConModule.directive("dcHeader", function() {
     templateUrl: "js/directives/dc-header.html",
     replace: true,
     scope: {
-      consoleLog: "&",
-      weatherDay: "="
     }
   };
 });
