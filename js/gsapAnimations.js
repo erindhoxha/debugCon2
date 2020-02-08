@@ -208,7 +208,7 @@ function hyjneshaNfron(parentElement) {
 $("body").css("overflow-y", "hidden");
 
 startSVGAnimation($("#code-debugcon"));
-$(window).on('load', function() {
+$(document).on('load', function() {
 
   new Rellax('.rellax', {
     speed: -2,
