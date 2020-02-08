@@ -223,7 +223,6 @@ $("body").css("overflow-y", "hidden");
 startSVGAnimationMain($('#code-debugcon'));
 $(window).on('load', function() {
 
-  // Also can pass in optional settings block
   new Rellax('.rellax', {
     speed: -2,
     center: false,

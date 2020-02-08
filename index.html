@@ -28,9 +28,9 @@
 
 </head>
 
-<body id="style-2">
+<body id="style-2" ng-controller="homeController">
 
-  <div id="loader" class="noselect">
+  <div id="loader" class="noselect" ng-init="load()">
     <div class="loader-wrapper">
       <span class="leftCurlyBrace">{</span>
       <span class="rightCurlyBrace">}</span>
@@ -47,17 +47,19 @@
           href="https://en.wikipedia.org/wiki/Love" target="_blank"><img src="img/heart.svg"></a> by debugCon</h6>
     </footer>
   </div>
-  <script src="js/rellax.min.js"></script>
-  <script src="js/gsapAnimations.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="js/rellax.min.js"></script>
+  <script type="text/javascript" src="js/gsapAnimations.js"></script>
   <script src="//code.angularjs.org/1.3.0-rc.2/angular.min.js"></script>
   <script src="//code.angularjs.org/1.3.0-rc.2/angular-route.min.js"></script>
   <script src="//code.angularjs.org/1.3.0-rc.2/angular-resource.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+
 
   <script src="js/main.js"></script>
   <script src="js/routes.js"></script>
   <script src="js/services.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- Controllers -->
   <script type="text/javascript" src="js/controllers/homeController.js"></script>
   <script type="text/javascript" src="js/directives/dc-header.js"></script>

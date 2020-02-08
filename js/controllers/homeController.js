@@ -8,5 +8,6 @@ angular
     "$timeout",
     "$routeParams",
     "$rootScope",
-    function($scope, $http, $resource, $timeout, $routeParams, $rootScope) {}
+    function($scope, $http, $resource, $timeout, $routeParams, $rootScope) {
+    }
   ]);
