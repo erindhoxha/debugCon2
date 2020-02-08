@@ -217,14 +217,14 @@ $(window).on('load', function() {
    $("#loader").fadeOut(300);
    $("body").css("overflow-y", "scroll");
    hyjneshaNfron($("#hnn-pr"));
-  new Rellax(".rellax", {
-    speed: -2,
-    center: false,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
+    new Rellax(".rellax", {
+      speed: -2,
+      center: false,
+      wrapper: null,
+      round: true,
+      vertical: true,
+      horizontal: false
+    });
   }, 1000);
 })
 
