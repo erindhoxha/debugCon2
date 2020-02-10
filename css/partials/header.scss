@@ -30,7 +30,9 @@
   max-width:650px;
   line-height:35px;
 }
-
+.logo-container {
+  display:none;
+}
 #nav-logo {
   width: 200px;
   transition:0.3s ease;
@@ -62,6 +64,9 @@ nav {
       }
     }
   }
+}
+.navbar {
+  height:80px;
 }
 
 .navbar-brand {

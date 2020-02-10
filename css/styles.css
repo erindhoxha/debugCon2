@@ -422,6 +422,10 @@ ul.bullets li::before {
   line-height: 35px;
 }
 
+.logo-container {
+  display: none;
+}
+
 #nav-logo {
   width: 200px;
   transition: 0.3s ease;
@@ -452,6 +456,10 @@ nav .navbar-nav li {
 }
 nav .navbar-nav li a {
   font-size: 1.05rem;
+}
+
+.navbar {
+  height: 80px;
 }
 
 .navbar-brand {

@@ -217,25 +217,28 @@ $(window).on('load', function() {
    $("#loader").fadeOut(300);
    $("body").css("overflow-y", "scroll");
    hyjneshaNfron($("#hnn-pr"));
-    new Rellax(".rellax", {
+   new Rellax(".rellax", {
       speed: -2,
       center: false,
       wrapper: null,
       round: true,
       vertical: true,
       horizontal: false
-    });
+   });
   }, 1000);
 })
-
 
 var btn = $("#button");
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
+    $(".logo-container").fadeIn(500);
+    $(".title").hide(300);
     btn.addClass("show-btn");
     startSVGAnimationMain($("#code-debugcon-overlay"));
   } else {
+    $(".logo-container").fadeOut(500);
+    $(".title").show(300);
     btn.removeClass("show-btn");
   }
 });
