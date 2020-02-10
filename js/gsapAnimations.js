@@ -229,13 +229,17 @@ $(window).on('load', function() {
 })
 
 var btn = $("#button");
+var done = false;
 
 $(window).scroll(function() {
+  if ($(window).scrollTop() > 150 && !done) {
+    startSVGAnimationMain($("#code-debugcon-overlay"));
+    done = true;
+  }
   if ($(window).scrollTop() > 300) {
     $(".logo-container").fadeIn(500);
     $(".logo-title").hide(300);
     btn.addClass("show-btn");
-    startSVGAnimationMain($("#code-debugcon-overlay"));
   } else {
     $(".logo-container").fadeOut(500);
     $(".logo-title").show(300);
