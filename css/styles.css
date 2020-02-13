@@ -374,6 +374,7 @@ ul.bullets li::before {
   }
 }
 #button {
+  cursor: pointer;
   display: none;
   position: fixed;
   bottom: 15px;

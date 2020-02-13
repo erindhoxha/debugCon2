@@ -1,6 +1,6 @@
 var debugConModule = angular.module("debugConModule", [
   "ngRoute",
-  "ngResource"
+  "ngResource",
 ]);
 
 angular.module('debugConModule').controller('ControllerParent', [

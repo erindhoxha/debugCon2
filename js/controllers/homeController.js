@@ -12,6 +12,18 @@ angular
     "$location",
     "$scope",
     function($anchorScroll, $location, $scope) {
+
+    $scope.toTheTop = function() {
+      $document.scrollTopAnimated(0, 5000).then(function() {
+        console && console.log("You just scrolled to the top!");
+      });
+    };
+    var section3 = angular.element(document.getElementById("section-3"));
+    $scope.toSection3 = function() {
+      $document.scrollToElementAnimated(section3);
+    };
+
+
       $scope.gotoAnchor = function(x) {
         var newHash = x;
         if ($location.hash() !== newHash) {
@@ -25,4 +37,4 @@ angular
         }
       };
     }
-  ]);
+  ]).value('duScrollOffset', 30);
