@@ -526,7 +526,7 @@ nav .navbar-nav li a {
   position: relative;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-  z-index: 9999999999;
+  z-index: 1;
   transition: 0.3s ease-in-out;
 }
 .prezantuesi:hover {
