@@ -43,10 +43,19 @@
             left: 57px;
         }
     }
+    .logo-title {
+        padding-bottom: 1px !important;
+    }
+    .title {
+        padding-bottom: 20px;
+    }
 
     .lead-hero-text {
         font-size:18px !important;
         margin-top:35px !important;
+    }
+    .link-text {
+        font-size:18px !important;
     }
     .sponsors-text {
         h1 {
@@ -56,27 +65,50 @@
 }
 
 @media only screen and (max-width:600px) {
+    body div.title.logo-title {
+        font-size:1.75rem !important;
+        letter-spacing:11px !important;
+        height: 103px;
+    }
+    .curly-braces {
+        font-size:1.5rem !important;
+    }
+    
     .sponsors {
         img {
             max-width:200px;
         }
     }
     .dcflag {
+        margin-bottom:40px;
         left: 10% !important;
         right: 10% !important;
         top: 107px !important;
     }
 }
+@media only screen and (max-width:350px) {
+    .dcflag {
+        width:100% !important;
+        max-width: 354px !important;
+        position: inherit !important;
+    }
+}
 @media only screen and (max-width:321px) {
+    body div.title.logo-title {
+        font-size:1.25rem !important;
+    }
+    .curly-braces {
+        font-size:1.1rem !important;
+    }
   .banner {
      padding-left:0px;
      padding-right:0px;
   }
   .dcflag {
       width:90% !important;
-      margin:0 auto;
+      margin:0px auto;
       position:inherit;
-      padding-bottom:50px;
+      padding-bottom:10px;
   }
   .title,
   .title-with-pl {

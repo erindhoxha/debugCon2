@@ -42,6 +42,17 @@ body {
   background: #551CA7;
 }
 
+.curly-braces {
+  color: #551CA7;
+  font-size: 2.25rem;
+}
+
+.logo-title {
+  font-family: "Track";
+  letter-spacing: 15px !important;
+  font-weight: 500 !important;
+}
+
 .title {
   display: flex;
   align-items: center;
@@ -50,6 +61,8 @@ body {
   letter-spacing: 7px;
   height: 90px;
   position: relative;
+  font-size: 2.4rem !important;
+  font-weight: 700;
 }
 
 .title-with-pl {
@@ -315,7 +328,7 @@ ul.bullets li::before {
   }
 
   .dcflag {
-    top: 18% !important;
+    top: 120px !important;
     right: 10px !important;
     left: 0;
   }
@@ -513,6 +526,12 @@ nav .navbar-nav li a {
   position: relative;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
+  z-index: 9999999999;
+  transition: 0.3s ease-in-out;
+}
+.prezantuesi:hover {
+  transform: scale(1.05) rotate(2deg);
+  cursor: pointer;
 }
 .prezantuesi img {
   box-shadow: 1px 1px 2px 10px #3A1075;
@@ -524,7 +543,8 @@ nav .navbar-nav li a {
   position: absolute;
 }
 .prezantuesi .name-tag {
-  height: 50px;
+  cursor: context-menu;
+  overflow-wrap: break-word;
   transform: rotate(-4deg);
   background-color: #551CA7;
   position: absolute;
@@ -536,6 +556,11 @@ nav .navbar-nav li a {
   font-size: 1.25rem;
   font-weight: 600;
   text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.prezantuesi .name-tag:hover {
+  cursor: pointer;
+  transform: scale(1.05) rotate(4deg);
 }
 
 .float-animate {
@@ -723,10 +748,15 @@ nav .navbar-nav li a {
 
 @media only screen and (max-width: 1525px) {
   .dcflag {
-    top: 18%;
+    top: 120px;
     width: 300px;
   }
 }
+.prezantuesi-wrapper {
+  min-width: 280px;
+  min-height: 350px;
+}
+
 .sponsors-text {
   max-width: 900px;
   text-align: center;
@@ -800,9 +830,21 @@ a:hover {
     left: 57px;
   }
 
+  .logo-title {
+    padding-bottom: 1px !important;
+  }
+
+  .title {
+    padding-bottom: 20px;
+  }
+
   .lead-hero-text {
     font-size: 18px !important;
     margin-top: 35px !important;
+  }
+
+  .link-text {
+    font-size: 18px !important;
   }
 
   .sponsors-text h1 {
@@ -810,17 +852,43 @@ a:hover {
   }
 }
 @media only screen and (max-width: 600px) {
+  body div.title.logo-title {
+    font-size: 1.75rem !important;
+    letter-spacing: 11px !important;
+    height: 103px;
+  }
+
+  .curly-braces {
+    font-size: 1.5rem !important;
+  }
+
   .sponsors img {
     max-width: 200px;
   }
 
   .dcflag {
+    margin-bottom: 40px;
     left: 10% !important;
     right: 10% !important;
     top: 107px !important;
   }
 }
+@media only screen and (max-width: 350px) {
+  .dcflag {
+    width: 100% !important;
+    max-width: 354px !important;
+    position: inherit !important;
+  }
+}
 @media only screen and (max-width: 321px) {
+  body div.title.logo-title {
+    font-size: 1.25rem !important;
+  }
+
+  .curly-braces {
+    font-size: 1.1rem !important;
+  }
+
   .banner {
     padding-left: 0px;
     padding-right: 0px;
@@ -828,9 +896,9 @@ a:hover {
 
   .dcflag {
     width: 90% !important;
-    margin: 0 auto;
+    margin: 0px auto;
     position: inherit;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   .title,

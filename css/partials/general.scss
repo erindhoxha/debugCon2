@@ -24,7 +24,15 @@ body {
   background: $primary;
 }
 // FORM
-
+.curly-braces {
+  color:#551CA7; 
+  font-size:2.25rem;
+}
+.logo-title {
+  font-family:'Track';
+  letter-spacing:15px !important;
+  font-weight:500 !important;
+}
 .title {
   display:flex;
   align-items:center;
@@ -33,7 +41,10 @@ body {
   letter-spacing:7px;
   height:90px;
   position:relative;
+  font-size:2.4rem !important; 
+  font-weight:700;
 }
+
 .title-with-pl {
   font-size: 54px !important;
   font-weight: 600;
