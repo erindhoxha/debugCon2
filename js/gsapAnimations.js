@@ -212,7 +212,7 @@ startSVGAnimation($("#code-debugcon"));
 
 $(window).on('load', function() {
   
-  setTimeout(() => {
+  setTimeout(function() {
    $("#loader").fadeOut(300);
    $("body").css("overflow-y", "scroll");
    hyjneshaNfron($("#hnn-pr"));

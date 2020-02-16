@@ -466,6 +466,7 @@ nav .navbar-nav li a {
 
 .navbar {
   min-height: 80px;
+  background-color: #000017;
 }
 
 .nav-link {
