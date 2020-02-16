@@ -55,6 +55,25 @@ body {
   font-weight: 700;
 }
 
+.opaque-animation {
+  animation: opaque 1s ease-in-out;
+}
+
+#kudhekur {
+  transition: 0.3s ease-in-out;
+}
+
+.hidden {
+  visibility: hidden !important;
+  transition: 0.3s ease-in-out;
+}
+
+.fadeIn {
+  transition: all 300ms ease-in 2s;
+  visibility: visible !important;
+  animation: opaque 0.3s ease-in-out;
+}
+
 .title-with-pl {
   font-size: 54px !important;
   font-weight: 600;
@@ -595,6 +614,14 @@ nav .navbar-nav li a {
   }
   100% {
     transform: rotate(-6deg);
+  }
+}
+@keyframes opaque {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .bg-stripes {

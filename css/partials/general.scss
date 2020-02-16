@@ -44,6 +44,18 @@ body {
   font-size:2.4rem !important; 
   font-weight:700;
 }
+.opaque-animation {
+  animation: opaque 1s ease-in-out;
+}
+#kudhekur {
+  transition:0.3s ease-in-out;
+}
+.hidden { visibility: hidden !important; transition:0.3s ease-in-out;  }
+.fadeIn { 
+  transition: all 300ms ease-in 2s; 
+  visibility:visible !important; 
+  animation: opaque 0.3s ease-in-out;
+}
 
 .title-with-pl {
   font-size: 54px !important;

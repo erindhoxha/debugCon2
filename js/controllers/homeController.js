@@ -12,6 +12,22 @@ angular
     "$location",
     "$scope",
     function($anchorScroll, $location, $scope) {
+      var done = 0;
+      $scope.animateElementIn = function($el) {
+        if (done == 0) {
+          $el.removeClass("hidden");
+          $el.addClass("fadeIn");
+           done = 1;
+        }
+      };
+
+      $scope.animateElementOut = function($el) {
+        if (done == 0) {
+          $el.addClass("hidden");
+          $el.removeClass("fadeIn");
+          done = 1;
+        }
+      };
 
     $scope.toTheTop = function() {
       $document.scrollTopAnimated(0, 5000).then(function() {

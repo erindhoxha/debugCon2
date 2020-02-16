@@ -211,9 +211,9 @@ startSVGAnimation($("#code-debugcon"));
 
 
 $(window).on('load', function() {
-  
   setTimeout(function() {
    $("#loader").fadeOut(300);
+   $("#nshpi").addClass("opaque-animation");
    $("body").css("overflow-y", "scroll");
    hyjneshaNfron($("#hnn-pr"));
    new Rellax(".rellax", {
