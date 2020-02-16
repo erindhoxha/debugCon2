@@ -798,7 +798,15 @@ a:hover {
   .presenters-desktop {
     display: none !important;
   }
+
+  .presenters-mobile {
+    display: flex !important;
+  }
 }
+.presenters-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .nav-item {
     padding-top: 5px;
