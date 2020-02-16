@@ -211,6 +211,8 @@ startSVGAnimation($("#code-debugcon"));
 
 
 $(window).on('load', function() {
+  $(".logo-container").fadeOut(300);
+
   setTimeout(function() {
    $("#loader").fadeOut(300);
    $("#nshpi").addClass("opaque-animation");

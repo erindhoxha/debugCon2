@@ -32,7 +32,9 @@
   line-height:35px;
 }
 .logo-container {
-  display:none;
+  display: flex;
+  max-height: 40px;
+  align-items: center;
 }
 #nav-logo {
   width: 200px;
@@ -67,7 +69,6 @@ nav {
   }
 }
 .navbar {
-  min-height:80px;
   background-color:$backgroundColor;
 }
 
