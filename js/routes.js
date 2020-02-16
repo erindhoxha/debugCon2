@@ -6,7 +6,7 @@ debugConModule.config(function($routeProvider) {
       templateUrl: "pages/home.html",
       controller: "homeController"
     })
-    .when("#/prezanto", {
+    .when("/prezanto", {
       templateUrl: "pages/prezanto.html",
       controller: "homeController"
     });
