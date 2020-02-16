@@ -24,7 +24,7 @@ angular
     };
 
 
-      $scope.gotoAnchor = function(x) {
+      $scope.gotoAnchor = function(x, e) {
         var newHash = x;
         if ($location.hash() !== newHash) {
           // set the $location.hash to `newHash` and

@@ -4,7 +4,6 @@ debugConModule.directive("dcHeader", function() {
     restrict: "E",
     templateUrl: "js/directives/dc-header.html",
     controller: "homeController",
-    replace: true,
     scope: {}
   };
 });

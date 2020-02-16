@@ -211,7 +211,6 @@ startSVGAnimation($("#code-debugcon"));
 
 
 $(window).on('load', function() {
-
   
   setTimeout(() => {
    $("#loader").fadeOut(300);
@@ -253,4 +252,3 @@ btn.on("click", function(e) {
     .stop()
     .animate({ scrollTop: 0 }, "300");
 });
-

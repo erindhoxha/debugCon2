@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@material/top-app-bar": "^4.0.0",
+    "angular-ui-bootstrap": "^2.5.6",
     "material-components-web": "^4.0.0"
   },
   "devDependencies": {

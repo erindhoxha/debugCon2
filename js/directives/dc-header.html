@@ -1,6 +1,7 @@
       <div>
-		  <span class="cyan-circle left rellax hide-sm" data-rellax-speed="7"></span>
-      <div class="container-fluid banner" id="home" data-aos="fade-up">
+		<dc-navbar></dc-navbar>
+		<span class="cyan-circle left rellax hide-sm" data-rellax-speed="7"></span>
+      	<div class="container-fluid banner section" id="nshpi" data-aos="fade-up">
 		  <img class="dots rellax" src="img/dots.svg" data-rellax-speed="3">
 		  <span class="purple-circle right rellax hide-sm" data-rellax-speed="3"></span>
           <svg version="1.1" id="hnn-pr" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -127,14 +128,19 @@
             </h1>
             <p class="date-p"><span class="lead date-lead" style="font-weight:600">30 Mars 2020</span> <br>
               <a class="link-text pt-2" href="https://goo.gl/maps/GQBArKhqYpF2" target="_blank">Instituti i Historisë "Ali
-                Hadri"Rr. Eqrem Qabej | KOSOVË, PRISHTINË</p></a>
+                Hadri" Rr. Eqrem Qabej | KOSOVË, PRISHTINË</p></a>
             <a><button class='btn-speaker draw'>Kush po prezanton?</button></a>
 		  </div>
-		  
+
 		  <button ng-click="gotoAnchor('prezantuesit')" class="header-button first rellax hide-lg" data-rellax-speed="1">Prezantuesit <i class="fas fa-arrow-down"></i></button>
 		  <button ng-click="gotoAnchor('sponzoret')" class="header-button second rellax hide-lg" data-rellax-speed="1">Sponzoret <i class="fas fa-arrow-down"></i></button>
 		  <button ng-click="gotoAnchor('kontakti')" class="header-button third rellax hide-lg" data-rellax-speed="-1">Kontakti <i class="fas fa-arrow-down"></i></button>
 		  <button ng-click="gotoAnchor('kudhekur')" class=" header-button fourth hide-lg rellax" data-rellax-speed="-1">Ku dhe kur? <i class="fas fa-arrow-down"></i></button>
+
 	  </div>
- 			 <div class="bg-stripes"></div>
+			  <div class="bg-stripes"></div>
+			  <dc-kur-dhe-ku></dc-kur-dhe-ku>
+			  <dc-prezantuesit></dc-prezantuesit>
+			  <dc-kontakti></dc-kontakti>
+			  <dc-sponzoret></dc-sponzoret>
 </div

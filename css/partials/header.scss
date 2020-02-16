@@ -70,6 +70,10 @@ nav {
   min-height:80px;
 }
 
+.nav-link {
+  transition:0.3s ease-in-out !important;
+}
+
 .navbar-brand {
   font-family:'Titillium Web';
   font-size:1.55rem;
