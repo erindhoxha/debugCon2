@@ -1,12 +1,10 @@
 <div class="section" style="min-height:600px; overflow:hidden; position:relative; height:100%;" id="prezantuesit">
-  <img class="dots rellax two" src="img/dots.svg" data-rellax-speed="5">
-  <img class="dots rellax" style="bottom:-599px;" src="img/dots.svg" data-rellax-speed="5">
   <div class="text-container hero-text pl-100">
     <div class="title">
       PREZANTUESIT
     </div>
     <div class="container-fluid pt-5 mt-5">
-      <div class="row">
+      <div class="row presenters-desktop">
         <div data-ng-repeat="person in presenters" class="prezantuesi-wrapper">
           <div class="prezantuesi">
             <div class="filter">
@@ -15,6 +13,13 @@
                 {{person.name}}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+        <div class="row presenters-mobile">
+        <div data-ng-repeat="person in presenters" class="presenters-mobile col-sm-3 col-md-3 col-xs-4 col-4">
+          <div class="border-presenters">
+              <img src="img/who.png" />
           </div>
         </div>
       </div>
