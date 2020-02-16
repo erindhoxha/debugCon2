@@ -231,11 +231,11 @@ var btn = $("#button");
 var done = false;
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 150 && !done) {
+  if ($(window).scrollTop() > 100 && !done) {
     startSVGAnimationMain($("#code-debugcon-overlay"));
     done = true;
   }
-  if ($(window).scrollTop() > 300) {
+  if ($(window).scrollTop() > 100) {
     $(".logo-container").fadeIn(500);
     $(".logo-title").hide(300);
     btn.addClass("show-btn");
