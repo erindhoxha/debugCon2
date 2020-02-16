@@ -23,7 +23,6 @@ angular
       $document.scrollToElementAnimated(section3);
     };
 
-
       $scope.gotoAnchor = function(x, e) {
         var newHash = x;
         if ($location.hash() !== newHash) {
