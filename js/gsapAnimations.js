@@ -236,12 +236,12 @@ $(window).scroll(function() {
     done = true;
   }
   if ($(window).scrollTop() > 100) {
-    $(".logo-container").fadeIn(500);
-    $(".logo-title").hide(300);
+    $(".logo-container").fadeIn(300);
+    $(".logo-title").fadeOut(300);
     btn.addClass("show-btn");
   } else {
-    $(".logo-container").fadeOut(500);
-    $(".logo-title").show(300);
+    $(".logo-container").fadeOut(300);
+    $(".logo-title").fadeIn(300);
     btn.removeClass("show-btn");
   }
 });
