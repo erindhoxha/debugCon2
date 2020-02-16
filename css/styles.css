@@ -163,9 +163,8 @@ body {
   margin: 0px;
   position: absolute;
   height: 400px;
-  right: 10%;
   overflow: hidden;
-  opacity: 0.1;
+  opacity: 0.2;
   transform: rotate(-34deg);
 }
 #dc-mail .st0 {
@@ -183,7 +182,7 @@ body {
   bottom: 0;
   right: 10%;
   overflow: hidden;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 #code-debugcon-overlay .st0 {
   fill: none;
