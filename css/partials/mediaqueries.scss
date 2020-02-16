@@ -100,6 +100,14 @@
         top: 107px !important;
     }
 }
+@media only screen and (max-width:575px) {
+    .pt-sm-1 {
+        padding-top:15px !important;
+    }
+    .pt-md-1 {
+        margin-top:15px !important;
+    }
+}
 @media only screen and (max-width:350px) {
     .dcflag {
         width:100% !important;
