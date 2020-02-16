@@ -27,14 +27,16 @@
   opacity: 0.2;
 }
 #dc-mail {
-  width:100%;
-  z-index:-10;
-  margin: 0px;
-  position: absolute;
-  height: 400px;
-  overflow: hidden;
-  opacity: 0.2;
-  transform:rotate(-34deg);
+    width: 300px;
+    z-index: -10;
+    margin: 0px;
+    position: absolute;
+    height: 400px;
+    overflow: hidden;
+    opacity: 0.2;
+    transform: rotate(-34deg);
+    top: 0;
+    right: 276px;
   .st0 {
     fill: none;
     stroke: $primary;

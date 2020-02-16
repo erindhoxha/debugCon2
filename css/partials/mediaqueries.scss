@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1024px) {
     .pl-100 {
-        padding-left:30px !important;
+        padding-left:23px !important;
     }
     .presenters-desktop {
         display:none !important;
@@ -26,6 +26,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #kontakti {
+        min-height:642px !important;
+    }
     .sponsors-text {
         img {
             max-width:268px;
@@ -74,6 +77,18 @@
 }
 
 @media only screen and (max-width:600px) {
+    .dcflag-footer {
+        max-width:100% !important;
+    }
+    .header-button.primary-button {
+        max-width:250px !important;
+    }
+    img.dc-flag-footer {
+        width:100%;
+    }
+    #prezantuesit {
+        padding-top:0px !important;
+    }
     .sponsors-text {
         h1 {
             text-align:left !important;
@@ -101,10 +116,10 @@
     }
 }
 @media only screen and (max-width:575px) {
-    .pt-sm-1 {
+    .pt-sm-1-dc {
         padding-top:15px !important;
     }
-    .pt-md-1 {
+    .pt-md-1-dc {
         margin-top:15px !important;
     }
 }

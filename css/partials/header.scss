@@ -119,13 +119,14 @@ nav {
 }
 .presenters-desktop {
     .prezantuesi-wrapper {
-      min-width: 280px;
-      min-height: 350px;
+      min-width: 160px;
+      margin-right:30px;
+      min-height: 249px;
     }
   .prezantuesi {
     border: 10px solid rgb(24, 0, 27);
-    max-width: 220px;
-    height: 220px;
+    max-width: 150px;
+    height: 150px;
     position: relative;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -143,11 +144,11 @@ nav {
 
   img {
     box-shadow: 1px 1px 2px 10px $tertiary;
-    max-width: 210px;
+    max-width: 150px;
     object-fit: cover;
     left: -10px;
     top: -10px;
-    height: 210px;
+    height: 150px;
     position: absolute;
   }
 
@@ -160,7 +161,7 @@ nav {
     bottom: -50px;
     box-shadow: 1px 1px 2px 5px $tertiary;
     left: 20px;
-    width: 150px;
+    width: 100px;
     padding: 10px;
     font-size: 1.25rem;
     font-weight: 600;
