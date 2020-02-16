@@ -229,17 +229,12 @@ $(window).on('load', function() {
 
 var btn = $("#button");
 var done = false;
-var done2 = false;
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 100 && !done) {
     startSVGAnimationMain($("#code-debugcon-overlay"));
     done = true;
   }
-    if ($(window).scrollTop() > 800 && !done2) {
-      startSVGAnimationMain($("#dc-mail"));
-      done2 = true;
-    }
   if ($(window).scrollTop() > 100) {
     $(".logo-container").fadeIn(500);
     $(".logo-title").hide(300);

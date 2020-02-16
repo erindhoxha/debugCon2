@@ -52,7 +52,7 @@
             left: 57px;
         }
     }
-    .logo-title {
+    .logo-title-container {
         padding-bottom: 1px !important;
     }
     .title {
@@ -79,7 +79,7 @@
             text-align:left !important;
         }
     }
-    body div.title.logo-title {
+    body div.title.logo-title-container {
         font-size:1.75rem !important;
         letter-spacing:11px !important;
         height: 103px;
@@ -108,7 +108,7 @@
     }
 }
 @media only screen and (max-width:321px) {
-    body div.title.logo-title {
+    body div.title.logo-title-container {
         font-size:1.25rem !important;
     }
     .curly-braces {
