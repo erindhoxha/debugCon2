@@ -874,6 +874,22 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .present-form {
+    padding: 20px !important;
+  }
+  .present-form .header-button {
+    width: 100%;
+  }
+
+  div .present-title {
+    font-size: 30px !important;
+    height: 126px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
   #kontakti {
     min-height: 642px !important;
   }
@@ -929,8 +945,12 @@ a:hover {
   }
 }
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px !important;
+  }
+
   .dcflag-footer {
-    max-width: 100% !important;
+    max-width: 200px !important;
   }
 
   .header-button.primary-button {
