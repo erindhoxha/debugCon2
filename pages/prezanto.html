@@ -13,15 +13,21 @@
         </div>
         
           <form class="present-form" action="https://formspree.io/mlenrdyo" method="POST">
-            <h1>INFORMACIONI PER PREZANTIMIN TEND</h1>
-            <input name="emriPrezantimit" type="text" placeholder="Emri i prezantimit" />
-            <textarea name="blurb" rows="2" type="text" placeholder="Blurb i shkurter"></textarea>
-            <textarea name="prezantimi" rows="3" type="text" placeholder="Tregoni si keni me i perdore 10 minutat e prezantimit. Detail is good!" ></textarea>
+            <h1 class="pb-5">INFORMACIONI PER PREZANTIMIN TEND</h1>
+            <label for="emriPrezantimit">Emri i prezantimit</label>
+            <input class="mt-0" name="emriPrezantimit" type="text" placeholder="Example: Pattern Design, Flexbox..." />
+            <label class="mt-3" for="blurb">Blurb i shkurter</label>
+            <textarea class="mt-0" name="blurb" rows="2" type="text" placeholder="Blurb i shkurter"></textarea>
+            <label class="mt-3" for="prezantimi">Detaje te prezantimit</label>
+            <textarea class="mt-0" name="prezantimi" rows="3" type="text" placeholder="Tregoni si keni me i perdore 10 minutat e prezantimit" ></textarea>
 
             <h1 class="hr-top">INFORMACIONI PER TY</h1>
-            <input name="emri" type="text" placeholder="Emri dhe mbiemri" />
-            <input name="_replyto" type="text" placeholder="Email-i" />
-            <textarea name="bio" rows="3" type="text" placeholder="Bio te shkurte"></textarea>
+            <label class="mt-3" for="emri">Emri dhe mbiemri</label>
+            <input class="mt-0" name="emri" type="text" placeholder="John Doe" />
+            <label class="mt-3" for="email">Email-i</label>
+            <input class="mt-0" name="_replyto" type="text" placeholder="your@email.com" />
+            <label class="mt-3" for="bio">Bio te shkurte</label>
+            <textarea class="mt-0" name="bio" rows="3" type="text" placeholder="Bio te shkurte"></textarea>
             <h1 class="hr-top">FALEMINDERIT SHUME PER PROPOZIMIN
               E PREZANTIMIT!</h1>
             <button type="submit" class="header-button mt-5"

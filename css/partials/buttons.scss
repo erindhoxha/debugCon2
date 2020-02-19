@@ -32,12 +32,15 @@
   background-color:transparent;
   transition:0.3s ease;
 }
-
+a.header-anchor {
+  max-width:300px;
+}
 .header-button {
   i {
     transition:0.3s ease-in-out;
     opacity:0;
   }
+  width:271px;
   background-color:$primary;
   border:none;
   padding-left:40px;
