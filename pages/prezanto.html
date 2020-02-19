@@ -13,19 +13,19 @@
             </div>
         </div>
         
-          <form class="present-form">
+          <form class="present-form" action="https://formspree.io/mlenrdyo" method="POST">
             <h1>INFORMACIONI PER PREZANTIMIN TEND</h1>
-            <input type="text" placeholder="Emri i prezantimit" />
-            <textarea type="text" placeholder="Blurb i shkurter"></textarea>
-            <textarea type="text" placeholder="Tregoni si keni me i perdore 10 minutat e prezantimit. Detail is good!" ></textarea>
+            <input name="emriPrezantimit" type="text" placeholder="Emri i prezantimit" />
+            <textarea name="blurb" rows="2" type="text" placeholder="Blurb i shkurter"></textarea>
+            <textarea name="prezantimi" rows="3" type="text" placeholder="Tregoni si keni me i perdore 10 minutat e prezantimit. Detail is good!" ></textarea>
 
             <h1 class="hr-top">INFORMACIONI PER TY</h1>
-            <input type="text" placeholder="Emri dhe mbiemri" />
-            <input type="text" placeholder="Email-i" />
-            <input type="text" placeholder="Bio te shkurte" />
+            <input name="emri" type="text" placeholder="Emri dhe mbiemri" />
+            <input name="_replyto" type="text" placeholder="Email-i" />
+            <textarea name="bio" rows="3" type="text" placeholder="Bio te shkurte"></textarea>
             <h1 class="hr-top">FALEMINDERIT SHUME PER PROPOZIMIN
               E PREZANTIMIT!</h1>
-            <button class="header-button hide-lg mt-5"
+            <button type="submit" class="header-button hide-lg mt-5"
                 data-rellax-speed="-1">SUBMIT <i class="fas fa-mail-bulk"></i></button>
           </form>
   </div>
